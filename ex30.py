@@ -3,6 +3,7 @@ import random
 def getRandom():
 
   fp = open("sowpods.txt")
+  randomWord = ""
 
   data = fp.read()
   dataList = data.split("\n")
